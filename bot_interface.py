@@ -6,7 +6,7 @@ BOT_TOKEN = "8510534078:AAGtu385CrVKNWURkvxnIhdmHw1E_dvqgmM"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # --- your Flask server endpoint ---
-FLASK_URL = "https://angele-cotemporaneous-frequently.ngrok-free.dev"
+FLASK_URL = "https://otp-bot-production-a1ce.up.railway.app"
 
 
 @bot.message_handler(commands=["start"])

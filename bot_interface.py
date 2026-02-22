@@ -15,9 +15,9 @@ def call_client():
             return jsonify({"error": "Missing phone number"}), 400
 
         # pull env vars from Railway dashboard
-        account_sid = os.getenv("TWILIO_ACCOUNT_SID")
-        auth_token = os.getenv("TWILIO_AUTH_TOKEN")
-        twilio_number = os.getenv("TWILIO_PHONE_NUMBER")
+        account_sid = os.getenv("ACd8d664da758592de1294c800a4b25fee")
+        auth_token = os.getenv("bdd85100bb9925f0a1aefd1ef21748f6")
+        twilio_number = os.getenv("+16572864747")
 
         client = Client(account_sid, auth_token)
 

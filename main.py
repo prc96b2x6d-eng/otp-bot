@@ -13,7 +13,7 @@ TWILIO_AUTH = "961747c97cf9b9acb207a5d77ba5907e"
 TWILIO_NUMBER = "+16572864747"
 
 # --- NGROK URL ---
-NGROK_URL = "https://angele-cotemporaneous-frequently.ngrok-free.dev"
+NGROK_URL = "https://otp-bot-production-a1ce.up.railway.app"
 
 # --- TELEGRAM HELPER ---
 def send_telegram_msg(text):

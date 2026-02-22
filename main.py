@@ -21,6 +21,11 @@ def send_telegram_msg(text):
     data = {"chat_id": CHAT_ID, "text": text}
     requests.post(url, data=data)
 
+# --- HOME ROUTE ---
+@app.route('/')
+def home():
+    return 'Server is running'
+
 # --- TWILIO VOICE HANDLERS ---
 @app.route("/voice", methods=["GET", "POST"])
 def voice():
